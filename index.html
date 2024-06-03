@@ -6,12 +6,23 @@
 	<title>CGCEB_Online</title>
 	<link href="./css/output.css" rel="stylesheet">
 	<link href="./css/index.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/output.css">
+	<link rel="stylesheet" href="css/index.css">
 	<script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-	<h1 class="text-7xl font-bold underline">
-		Hello world!
-	</h1>
+<body class="flex-auto">
+	<header class="flex h-screen items-center justify-center max-h-12 bg-sky-500 p-4">
+		<div class="float-left p-5 m-5 static mr-auto">
+			<a href="index.html">
+				<img src="images/cgceb-logo.png" alt="" class="max-h:10 max-w-10">
+			</a>
+		</div>
+	
+		<div class="flex float-right p-5 m-5 static">
+			<span class="hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 p-4 m-auto"><a href="">Login</a></span>
+			<span class="links p-4 m-auto"><a href="">About</a></span>
+		</div>
+	</header>
 	<script src="scripts/index.js"></script>
 </body>
 </html>
