@@ -565,3 +565,7 @@ video {
 .smallLinks{
 	@apply p-4 m-4 h-10 w-10 bg-sky-500 flex-shrink-0;
 }
+
+#content {
+  padding-top: 100px;
+}
